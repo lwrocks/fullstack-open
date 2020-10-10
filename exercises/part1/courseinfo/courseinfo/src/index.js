@@ -1,6 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+const Header = () => {
+  return (
+    <div>
+      <h1>Half Stack Application Development</h1>
+    </div>
+  )
+}
+
 const App = () => {
   const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
@@ -12,7 +20,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>{course}</h1>
+      <Header />
       <p>{part1} {exercises1}</p>
       <p>{part2} {exercises2}</p>
       <p>{part3} {exercises3}</p>
